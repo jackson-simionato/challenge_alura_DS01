@@ -43,7 +43,7 @@ A maioria das colunas são variáveis categóricas, mas também ocorrem variáve
 
 Por fim, uma nova coluna foi criada para representar o gasto diário de cada cliente.
 
-[* Notebook da Semana 1
+* [Notebook da Semana 1
 ](https://raw.githubusercontent.com/jackson-simionato/challenge_alura_DS01/main/week_1_challenge_alura_DS_2022_05.ipynb)
 
 ## Semana 2
