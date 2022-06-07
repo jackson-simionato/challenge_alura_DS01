@@ -10,7 +10,7 @@ Você foi contratado(a) como cientista de dados pela operadora de telecomunicaç
 
 Assim, o desafio tem como objetivo utilizar conceitos de Data Science para explorar, tratar e modelar uma base de dados de clientes da **Alura Voz**. Com isso, serão testadas hipóteses para dscrever o padrão de ocorrência de **Churn** com relação às outras variáveis disponíveis. No total serão 4 semanas de desafio.
 
-[* Base de dados original
+* [Base de dados original
 ](https://raw.githubusercontent.com/sthemonica/alura-voz/main/Dados/Telco-Customer-Churn.json)
 
 ## Semana 1: aquisição, limpeza e tratamento dos dados
