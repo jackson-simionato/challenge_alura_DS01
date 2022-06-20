@@ -62,3 +62,8 @@ Com a finalização do pré-processamento da base de dados, a análise se voltou
 
 * **Relação entre taxa de churn, gênero e idade:** o gênero dos clientes está distribuído em duas partes praticamente perfeitas e, aleḿ disso, a taxa de churn não varia conforme o gênero dos clientes. Por outro lado, clientes com mais de 65 anos são minoria no total de clientes, porém representam a maioria dos clientes que cancelaram os serviços da Alura Voz.
 ![image](https://user-images.githubusercontent.com/40372626/174590393-f646325b-b40a-4888-9f3e-d2130c0f643f.png)
+
+
+* **Relação entre taxa de churn, dependentes e parceiro:** no geral, foi verificado uma tendência da taxa de churn ser maior em consumidores **sem dependentes e sem parceiros**. Uma interpretação possível é que pessoas solteiras tendem a ser mais jovens e não possuem grande estabilidade financeira, desta forma pequenas variações nos preços e qualidade dos serviços prestados já são suficientes para aumentar a taxa de churn nesse grupo de pessoas.
+![image](https://user-images.githubusercontent.com/40372626/174592618-d7bb93d1-dd28-4fdc-b552-899c7e94c2e7.png)![image](https://user-images.githubusercontent.com/40372626/174592645-f0094e55-5560-4999-84d0-b24d2fd7bd0e.png)
+
