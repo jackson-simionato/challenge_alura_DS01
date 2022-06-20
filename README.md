@@ -65,5 +65,6 @@ Com a finalização do pré-processamento da base de dados, a análise se voltou
 
 
 * **Relação entre taxa de churn, dependentes e parceiro:** no geral, foi verificado uma tendência da taxa de churn ser maior em consumidores **sem dependentes e sem parceiros**. Uma interpretação possível é que pessoas solteiras tendem a ser mais jovens e não possuem grande estabilidade financeira, desta forma pequenas variações nos preços e qualidade dos serviços prestados já são suficientes para aumentar a taxa de churn nesse grupo de pessoas.
-![image](https://user-images.githubusercontent.com/40372626/174592618-d7bb93d1-dd28-4fdc-b552-899c7e94c2e7.png)![image](https://user-images.githubusercontent.com/40372626/174592645-f0094e55-5560-4999-84d0-b24d2fd7bd0e.png)
-
+* Parceiro             |  Dependentes
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/40372626/174592618-d7bb93d1-dd28-4fdc-b552-899c7e94c2e7.png)  |  ![image](https://user-images.githubusercontent.com/40372626/174592645-f0094e55-5560-4999-84d0-b24d2fd7bd0e.png)
