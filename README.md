@@ -67,16 +67,15 @@ Com a finalização do pré-processamento da base de dados, a análise se voltou
 
 ![image](https://user-images.githubusercontent.com/40372626/174596652-43dc824c-4328-4c00-8e9b-b295d4c329a9.png)
 
+Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero e existência de dependentes, pode-se traçar um perfil genérico dos clientes que cancelam a assinatura da Alura Voz nos primeiros meses de serviço: pessoas mais jovens e sem dependentes, provavelmente jovens solteiros, sem distinção de gênero.
+
+![image](https://user-images.githubusercontent.com/40372626/174597190-9364bfa8-4621-4815-841b-a2de432f31ce.png)
 
 ### Taxa de churn e variáveis categóricas
 
 * **Relação entre taxa de churn, gênero e idade:** o gênero dos clientes está distribuído em duas partes praticamente perfeitas e, aleḿ disso, a taxa de churn não varia conforme o gênero dos clientes. Por outro lado, clientes com mais de 65 anos são minoria no total de clientes, porém representam a maioria dos clientes que cancelaram os serviços da Alura Voz.
 
 ![image](https://user-images.githubusercontent.com/40372626/174590393-f646325b-b40a-4888-9f3e-d2130c0f643f.png)
-
-Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero e existência de dependentes, pode-se traçar um perfil genérico dos clientes que cancelam a assinatura da Alura Voz nos primeiros meses de serviço: pessoas mais jovens e sem dependentes, provavelmente jovens solteiros, sem distinção de gênero.
-
-![image](https://user-images.githubusercontent.com/40372626/174597190-9364bfa8-4621-4815-841b-a2de432f31ce.png)
 
 * **Relação entre taxa de churn, dependentes e parceiro:** no geral, foi verificado uma tendência da taxa de churn ser maior em consumidores **sem dependentes e sem parceiros**. Uma interpretação possível é que pessoas solteiras tendem a ser mais jovens e não possuem grande estabilidade financeira, desta forma pequenas variações nos preços e qualidade dos serviços prestados já são suficientes para aumentar a taxa de churn nesse grupo de pessoas.
 
