@@ -57,13 +57,34 @@ Por fim, uma nova coluna foi criada para representar o gasto diário de cada cli
 ## Semana 2
 Com a finalização do pré-processamento da base de dados, a análise se voltou à exploração dos dados e geração de gráficos para obter *insights*.
 
+
 * **Distribuição da variável target (churn):** a taxa de churn está em patamar bastante elevado, cerca de 26% dos usuários.
 ![image](https://user-images.githubusercontent.com/40372626/174589405-1e0dfe3f-07d6-428c-81c2-2ba6c1b5bde2.png)
+
+### Taxa de churn e variáveis numéricas
+* **Relação entre taxa de churn e meses de contrato:** um padrão bastante interessante foi percebido nesta análise: a maioria dos clientes que cancelaram os serviços da Alura Voz o fizeram logo nos primeiros meses de contrato com a empresa. Portanta há uma dificuldade em fidelizar os clientes.
+![image](https://user-images.githubusercontent.com/40372626/174596652-43dc824c-4328-4c00-8e9b-b295d4c329a9.png)
+
+
+### Taxa de churn e variáveis categóricas
 
 * **Relação entre taxa de churn, gênero e idade:** o gênero dos clientes está distribuído em duas partes praticamente perfeitas e, aleḿ disso, a taxa de churn não varia conforme o gênero dos clientes. Por outro lado, clientes com mais de 65 anos são minoria no total de clientes, porém representam a maioria dos clientes que cancelaram os serviços da Alura Voz.
 ![image](https://user-images.githubusercontent.com/40372626/174590393-f646325b-b40a-4888-9f3e-d2130c0f643f.png)
 
+Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero e existência de dependentes, pode-se traçar um perfil genérico dos clientes que cancelam a assinatura da Alura Voz nos primeiros meses de serviço: pessoas mais jovens e sem dependentes, provavelmente jovens solteiros, sem distinção de gênero.
+![image](https://user-images.githubusercontent.com/40372626/174597190-9364bfa8-4621-4815-841b-a2de432f31ce.png)
 
 * **Relação entre taxa de churn, dependentes e parceiro:** no geral, foi verificado uma tendência da taxa de churn ser maior em consumidores **sem dependentes e sem parceiros**. Uma interpretação possível é que pessoas solteiras tendem a ser mais jovens e não possuem grande estabilidade financeira, desta forma pequenas variações nos preços e qualidade dos serviços prestados já são suficientes para aumentar a taxa de churn nesse grupo de pessoas.
 
 <img src="https://user-images.githubusercontent.com/40372626/174592618-d7bb93d1-dd28-4fdc-b552-899c7e94c2e7.png" width="445"/> <img src="https://user-images.githubusercontent.com/40372626/174593855-bbd692a3-7827-4b07-95e3-57fc7fc0607f.png" width="445"/> 
+
+* **Relação entre taxa de churn e o tipo de internet contratado:** ficou evidente que a taxa de churn é maior em clientes que contrataram fibra ótica, possivelmente esta modalidade de seviço não esta agradando os clientes
+![image](https://user-images.githubusercontent.com/40372626/174594805-fa3653ab-9537-447e-85ad-d017d47f604e.png)
+
+* **Relação entre taxa de churn e a contratação de serviços adicionais de segurança:** nesta etapa foi analisado como a contratação de serviços adicionais está impactando a taxa de churn. Em todos os casos os serviços parecem agradar os cleintes contratantes, já que a taxa de churn é relativamente maior nos clientes que não contrataram estes servços.
+![image](https://user-images.githubusercontent.com/40372626/174595689-070cc4d1-b2c3-4fd5-b84a-0bfd5417dc0f.png)
+
+* **Relação entre taxa de churn e variáveis contratuais:** com relação às variáveis contratuais e de forma de pagamento, alguns padrões bem claros foram identificados: a taxa de churn é proporcionalmente maior em clientes que optaram por receber a fatura online, que firmaram contratos mensais e que tem o cheque eletrônico como forma de pagamento.
+![image](https://user-images.githubusercontent.com/40372626/174596156-ebc8b692-ee72-4e4c-bf09-398dbacda326.png)
+
+
