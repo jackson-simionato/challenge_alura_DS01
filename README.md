@@ -69,7 +69,7 @@ Com a finalização do pré-processamento da base de dados, a análise se voltou
 
 Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero e existência de dependentes, pode-se traçar um perfil genérico dos clientes que cancelam a assinatura da Alura Voz nos primeiros meses de serviço: pessoas mais jovens e sem dependentes, provavelmente jovens solteiros, sem distinção de gênero.
 
-![image](https://user-images.githubusercontent.com/40372626/174904129-a1c88fa2-301d-467f-a55c-54897864b3a5.png)
+![image](https://user-images.githubusercontent.com/40372626/174904366-6460e974-134f-4a1e-912f-e04f686825ae.png)
 
 ### Taxa de churn e variáveis categóricas
 
