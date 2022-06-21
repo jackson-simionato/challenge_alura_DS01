@@ -58,7 +58,7 @@ A maioria das colunas são variáveis categóricas, mas também ocorrem variáve
 * Correções de inconsistências em três colunas do dataset (churn, idoso e cobranca_total);
 * Nova coluna criada para representar o gasto diário de cada cliente (cobranca_diaria).
 
-## Semana 2
+## Semana 2: data visualization e insights sobre o problema
 Com a finalização do pré-processamento da base de dados, a análise se voltou à exploração dos dados e geração de gráficos para obter *insights*.
 
 * [Notebook da Semana 2](https://github.com/jackson-simionato/challenge_alura_DS01/blob/main/week_1_challenge_alura_DS_2022_05.ipynb)
@@ -98,4 +98,15 @@ Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero 
 ![image](https://user-images.githubusercontent.com/40372626/174904649-ec9d2b47-8010-4147-8fed-b6f8e527d389.png)
 
 ![image](https://user-images.githubusercontent.com/40372626/174904589-7b4b2837-9b61-4d61-9e3e-86228f16eba3.png)
+
+## Semana 3: desenvolvimento de modelos de machine learning
+A partir das análises realizadas nas semanas anteriores, foi possível entender minuciosamente o dataset do desafio e formular algumas hipóteses sobre os fatores que condicionam a ocorrência de um caso de churn. Na semana 3, para reforçar ou contradizer as hipóteses iniciais, o objetivo foi criar modelos de machine learning capazes de predizer casos de churn.
+
+### Tratamento dos dados
+Os algoritmos classificadores de machine learning, apesar de muito potentes, necessitam que os dados de input estejam o mais simplificado possível, como por exemplo a substituição de atributos categóricos por atributos de lógica binária. Para isso, novos processamentos foram aplicados na base de dados:
+
+* Linhas com valor 'indefinido' na variável target foram descartadas;
+* Atributos categóricos do tipo string foram convertidos para inteiro, seguindo lógica binária (ex: 'Não' = 0, 'Sim' = 1);
+* Técnica de One-Hot Encoding em colunas categóricas com mais de 2 categorias possíveis (ex: servico_internet);
+* Balanceamento dos dados com relação à coluna target aplicando oversampling com algoritmo SMOTE.
 
