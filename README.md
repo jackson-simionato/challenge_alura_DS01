@@ -88,6 +88,10 @@ Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero 
 ![image](https://user-images.githubusercontent.com/40372626/174595689-070cc4d1-b2c3-4fd5-b84a-0bfd5417dc0f.png)
 
 * **Relação entre taxa de churn e variáveis contratuais:** com relação às variáveis contratuais e de forma de pagamento, alguns padrões bem claros foram identificados: a taxa de churn é proporcionalmente maior em clientes que optaram por receber a fatura online, que firmaram contratos mensais e que tem o cheque eletrônico como forma de pagamento.
+![image](https://user-images.githubusercontent.com/40372626/174904581-4b4dba0a-fd9e-4e1f-90c4-4e05e2ebe1fa.png)
+
+
 ![image](https://user-images.githubusercontent.com/40372626/174596156-ebc8b692-ee72-4e4c-bf09-398dbacda326.png)
 
+![image](https://user-images.githubusercontent.com/40372626/174904589-7b4b2837-9b61-4d61-9e3e-86228f16eba3.png)
 
