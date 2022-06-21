@@ -65,7 +65,7 @@ Com a finalização do pré-processamento da base de dados, a análise se voltou
 ### Taxa de churn e variáveis numéricas
 * **Relação entre taxa de churn e meses de contrato:** um padrão bastante interessante foi percebido nesta análise: a maioria dos clientes que cancelaram os serviços da Alura Voz o fizeram logo nos primeiros meses de contrato com a empresa. Portanta há uma dificuldade em fidelizar os clientes.
 
-![image](https://user-images.githubusercontent.com/40372626/174596652-43dc824c-4328-4c00-8e9b-b295d4c329a9.png)
+![image](https://user-images.githubusercontent.com/40372626/174906166-d2435a51-5028-4a88-91f5-7f16bca3f583.png)
 
 Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero e existência de dependentes, pode-se traçar um perfil genérico dos clientes que cancelam a assinatura da Alura Voz nos primeiros meses de serviço: pessoas mais jovens e sem dependentes, provavelmente jovens solteiros, sem distinção de gênero.
 
