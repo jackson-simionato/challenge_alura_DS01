@@ -85,7 +85,7 @@ Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero 
 ![image](https://user-images.githubusercontent.com/40372626/174594805-fa3653ab-9537-447e-85ad-d017d47f604e.png)
 
 * **Relação entre taxa de churn e a contratação de serviços adicionais de segurança:** nesta etapa foi analisado como a contratação de serviços adicionais está impactando a taxa de churn. Em todos os casos os serviços parecem agradar os cleintes contratantes, já que a taxa de churn é relativamente maior nos clientes que não contrataram estes servços.
-![image](https://user-images.githubusercontent.com/40372626/174595689-070cc4d1-b2c3-4fd5-b84a-0bfd5417dc0f.png)
+![image](https://user-images.githubusercontent.com/40372626/174906516-90e57de1-5a46-4765-9c5a-bffbca97a473.png)
 
 * **Relação entre taxa de churn e variáveis contratuais:** com relação às variáveis contratuais e de forma de pagamento, alguns padrões bem claros foram identificados: a taxa de churn é proporcionalmente maior em clientes que optaram por receber a fatura online, que firmaram contratos mensais e que tem o cheque eletrônico como forma de pagamento.
 ![image](https://user-images.githubusercontent.com/40372626/174904581-4b4dba0a-fd9e-4e1f-90c4-4e05e2ebe1fa.png)
