@@ -61,7 +61,7 @@ A maioria das colunas são variáveis categóricas, mas também ocorrem variáve
 ## Semana 2
 Com a finalização do pré-processamento da base de dados, a análise se voltou à exploração dos dados e geração de gráficos para obter *insights*.
 
-* [Notebook da Semana 2] (https://github.com/jackson-simionato/challenge_alura_DS01/blob/main/week_2_challenge_alura_DS_2022_05.ipynb)
+* [Notebook da Semana 2](https://github.com/jackson-simionato/challenge_alura_DS01/blob/main/week_1_challenge_alura_DS_2022_05.ipynb)
 
 * **Distribuição da variável target (churn):** a taxa de churn está em patamar bastante elevado, cerca de 26% dos usuários.
 
