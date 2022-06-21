@@ -131,12 +131,12 @@ Nesta etapa, os melhores hiperparâmetros encontrados foram os seguintes:
  
  A perfomance do modelo foi otimizada com sucesso, como é possível perceber nos novos valores das métricas de classificação e na matriz de confusão:
  
- | metric   | value              |   |   |   |
-|----------|--------------------|---|---|---|
-| Acurácia | 0.8218013142636258 |   |   |   |
-| Precisão | 0.786896551724138  |   |   |   |
-| Recall   | 0.8824439288476411 |   |   |   |
-| F1 score | 0.8319358366751732 |   |   |   |
+ | metric   | value              |
+|----------|--------------------|
+| Acurácia | 0.8218013142636258 |
+| Precisão | 0.786896551724138  |
+| Recall   | 0.8824439288476411 |
+| F1 score | 0.8319358366751732 |
 
 ![image](https://user-images.githubusercontent.com/40372626/174911141-ca3d561e-ca6e-4dae-bc66-d60d61136883.png)
 
