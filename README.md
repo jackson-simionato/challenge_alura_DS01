@@ -117,3 +117,35 @@ Os algoritmos classificadores de machine learning, apesar de muito potentes, nec
 | LinearSVC    | 0.834171 | 0.829771  | 0.840681 | 0.835190 |
 | DecisionTree | 0.824507 | 0.817562  | 0.835267 | 0.826320 |
 | RandomForest | 0.838423 | 0.813620  | 0.877804 | 0.84449  |
+
+Por conta do melhor desempenho do modelo RandomForest, foi realizada ainda uma etapa de otimização utilizando o algoritmo **RandomizedSearchCV**.
+
+Nesta etapa, os melhores hiperparâmetros encontrados foram os seguintes:
+
+{'n_estimators': 250,
+ 'min_samples_split': 2,
+ 'min_samples_leaf': 1,
+ 'max_features': 'auto',
+ 'max_depth': 6,
+ 'criterion': 'entropy'}
+ 
+ A perfomance do modelo foi otimizada com sucesso, como é possível perceber nos novos valores das métricas de classificação e na matriz de confusão:
+ 
+ | metric   | value              |   |   |   |
+|----------|--------------------|---|---|---|
+| Acurácia | 0.8218013142636258 |   |   |   |
+| Precisão | 0.786896551724138  |   |   |   |
+| Recall   | 0.8824439288476411 |   |   |   |
+| F1 score | 0.8319358366751732 |   |   |   |
+
+![image](https://user-images.githubusercontent.com/40372626/174911141-ca3d561e-ca6e-4dae-bc66-d60d61136883.png)
+
+### Importância dos atributos
+
+Com essa análise, é possível perceber que as variáveis mais importantes estão relacionadas ao tempo e tipo de contrato de contrato, ao preço dos serviços e também variáveis relacionadas ao serviço de internet.
+
+![image](https://user-images.githubusercontent.com/40372626/174911244-f5ad4f3e-833d-4dd4-a149-e339bcee041a.png)
+
+## Conclusão
+
+Ao fim do desafio, os resultados obtidos permitem traçar um perfil característico dos clientes que tendem a cancelar os serviços da **Alura Voz**. Eles tendem a ser clientes novos, que fecham contratos mensais, utilizam cheque eletrônico como forma de pagamento e tem valor de cobrança mensal geralmente superior a 60. Além disso, há proporcionalmente mais casos de churn entre os clientes idosos e clientes sem dependentes ou parceiros. Outro ponto relevante é que os serviços adicionais oferecidos da **Alura Voz** estão tendo sucesso em fidelizar os clientes.
