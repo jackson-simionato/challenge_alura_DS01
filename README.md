@@ -111,38 +111,9 @@ Os algoritmos classificadores de machine learning, apesar de muito potentes, nec
 * Balanceamento dos dados com relação à coluna target aplicando oversampling com algoritmo SMOTE.
 
 ### Resultados dos modelos
-* **LinearSVC**
 
-Acurácia: 0.8341708542713567
-
-Precisão: 0.8297709923664122
-
-Recall: 0.8406805877803558
-
-F1 score: 0.8351901651940069 
-
-![image](https://user-images.githubusercontent.com/40372626/174910219-06e509a3-8ef0-4915-a574-a3565a60a03c.png)
-
-* **Decision Tree**
-
-Acurácia: 0.8245071511403169
-
-Precisão: 0.817562452687358
-
-Recall: 0.8352668213457076
-
-F1 score: 0.8263198163733741
-
-![image](https://user-images.githubusercontent.com/40372626/174910341-3672e4f3-7c8a-4822-9be1-9fac2783438a.png)
-
-* **Random Forest**
-
-Acurácia: 0.8384228836490143
-
-Precisão: 0.8136200716845878
-
-Recall: 0.8778035576179428
-
-F1 score: 0.8444940476190477
-
-![image](https://user-images.githubusercontent.com/40372626/174910391-bd0bebe6-827d-4af3-ab6e-b3e2a0bbbde4.png)
+| model        | accuracy | precision | recall   | f1_score |
+|--------------|----------|-----------|----------|----------|
+| LinearSVC    | 0.834171 | 0.829771  | 0.840681 | 0.835190 |
+| DecisionTree | 0.824507 | 0.817562  | 0.835267 | 0.826320 |
+| RandomForest | 0.838423 | 0.813620  | 0.877804 | 0.84449  |
