@@ -79,7 +79,7 @@ Ao detalhar essa análise incluindo variáveis categóricas como idade, gênero 
 
 * **Relação entre taxa de churn, dependentes e parceiro:** no geral, foi verificado uma tendência da taxa de churn ser maior em consumidores **sem dependentes e sem parceiros**. Uma interpretação possível é que pessoas solteiras tendem a ser mais jovens e não possuem grande estabilidade financeira, desta forma pequenas variações nos preços e qualidade dos serviços prestados já são suficientes para aumentar a taxa de churn nesse grupo de pessoas.
 
-<img src="https://user-images.githubusercontent.com/40372626/174592618-d7bb93d1-dd28-4fdc-b552-899c7e94c2e7.png" width="445"/> <img src="https://user-images.githubusercontent.com/40372626/174593855-bbd692a3-7827-4b07-95e3-57fc7fc0607f.png" width="445"/> 
+<img src="https://user-images.githubusercontent.com/40372626/174906316-69c2a767-925c-4b63-a109-923fb4ca6341.png" width="445"/> <img src="!https://user-images.githubusercontent.com/40372626/174906352-d12bf9f7-e990-49e0-b00e-2451806b3b47.png" width="445"/> 
 
 * **Relação entre taxa de churn e o tipo de internet contratado:** ficou evidente que a taxa de churn é maior em clientes que contrataram fibra ótica, possivelmente esta modalidade de seviço não esta agradando os clientes
 ![image](https://user-images.githubusercontent.com/40372626/174594805-fa3653ab-9537-447e-85ad-d017d47f604e.png)
