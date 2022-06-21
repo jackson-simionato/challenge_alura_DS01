@@ -22,9 +22,14 @@ Assim, o desafio tem como objetivo utilizar conceitos de Data Science para explo
 ](https://raw.githubusercontent.com/sthemonica/alura-voz/main/Dados/Telco-Customer-Churn.json)
 
 ## Semana 1: aquisição, limpeza e tratamento dos dados
-Após obtenção do dataset disponibilizado via API em formato JSON, foi realizado uma exploração preliminar para compreendê-los. Um dicionário das colunas foi disponibilizado:
+Após obtenção do dataset disponibilizado via API em formato JSON, foi realizado uma exploração preliminar para compreendê-los, assim como um tratamento dos dados originais para as futuras análises. 
 
-#### Dicionário dos dados
+* [Notebook da Semana 1
+](https://raw.githubusercontent.com/jackson-simionato/challenge_alura_DS01/main/week_1_challenge_alura_DS_2022_05.ipynb)
+
+Um dicionário das colunas foi disponibilizado:
+
+#### Descrição das colunas
 * `customerID`: número de identificação único de cada cliente
 * `Churn`: se o cliente deixou ou não a empresa 
 * `gender`: gênero (masculino e feminino) 
@@ -47,16 +52,16 @@ Após obtenção do dataset disponibilizado via API em formato JSON, foi realiza
 * `Charges.Monthly`: total de todos os serviços do cliente por mês
 * `Charges.Total`: total gasto pelo cliente
 
-A maioria das colunas são variáveis categóricas, mas também ocorrem variáveis numéricas. Todas os nomes de colunas e valores de variáveis foram traduzidos para o português, além disso cada atributo foi validado individualmente com o objetivo de identificar possíveis inconsistências como valores nulos, variáveis numéricas formatadas como string, padronização na nomenclatura de valores categóricos, etc.
-
-Por fim, uma nova coluna foi criada para representar o gasto diário de cada cliente.
-
-* [Notebook da Semana 1
-](https://raw.githubusercontent.com/jackson-simionato/challenge_alura_DS01/main/week_1_challenge_alura_DS_2022_05.ipynb)
+A maioria das colunas são variáveis categóricas, mas também ocorrem variáveis numéricas. Alguns dos processamentos aplicados estão listados abaixo:
+* Todas os nomes de colunas e valores de variáveis foram traduzidos para o português;
+* Análise de inconsistências em todos os atributos (ex: valores nulos, tipo de dado incorreto, etc.);
+* Correções de inconsistências em três colunas do dataset (churn, idoso e cobranca_total);
+* Nova coluna criada para representar o gasto diário de cada cliente (cobranca_diaria).
 
 ## Semana 2
 Com a finalização do pré-processamento da base de dados, a análise se voltou à exploração dos dados e geração de gráficos para obter *insights*.
 
+* [Notebook da Semana 2] (https://github.com/jackson-simionato/challenge_alura_DS01/blob/main/week_2_challenge_alura_DS_2022_05.ipynb)
 
 * **Distribuição da variável target (churn):** a taxa de churn está em patamar bastante elevado, cerca de 26% dos usuários.
 
